@@ -87,7 +87,7 @@ public class SensorOctoQuad extends LinearOpMode {
     @Override
     public void runOpMode() {
 
-        // Connect to OctoQuad by referring to its name in the Robot Configuration.
+        // Connect to OctoQuad by referring to its name in the Robot.java Configuration.
         octoquad = hardwareMap.get(OctoQuad.class, "octoquad");
 
         // Read the Firmware Revision number from the OctoQuad and display it as telemetry.

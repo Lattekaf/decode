@@ -183,7 +183,7 @@ public class SensorOctoQuadLocalization extends LinearOpMode
             {
                 warnIfNotTuned();
 
-                // Display Robot position data
+                // Display Robot.java position data
                 telemetry.addData("Localizer Status", localizer.localizerStatus);
                 telemetry.addData("Heading deg", "%.2f", localizer.heading_rad * RAD2DEG);
                 telemetry.addData("Rotation dps", "%.2f", localizer.velHeading_radS * RAD2DEG);

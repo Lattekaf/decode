@@ -47,7 +47,7 @@ import java.util.concurrent.TimeUnit;
 
 /*
  * This OpMode illustrates using a camera to locate and drive towards a specific AprilTag.
- * The code assumes a Holonomic (Mecanum or X Drive) Robot.
+ * The code assumes a Holonomic (Mecanum or X Drive) Robot.java.
  *
  * For an introduction to AprilTags, see the ftc-docs link below:
  * https://ftc-docs.firstinspires.org/en/latest/apriltag/vision_portal/apriltag_intro/apriltag-intro.html
@@ -61,7 +61,7 @@ import java.util.concurrent.TimeUnit;
  * To reduce any motion blur (which will interrupt the detection process) the Camera exposure is reduced to a very low value (5mS)
  * You can determine the best Exposure and Gain values by using the ConceptAprilTagOptimizeExposure OpMode in this Samples folder.
  *
- * The code assumes a Robot Configuration with motors named: front_left_drive and front_right_drive, back_left_drive and back_right_drive.
+ * The code assumes a Robot.java Configuration with motors named: front_left_drive and front_right_drive, back_left_drive and back_right_drive.
  * The motor directions must be set so a positive power goes forward on all wheels.
  * This sample assumes that the current game AprilTag Library (usually for the current season) is being loaded by default,
  * so you should choose to approach a valid tag ID.
@@ -126,7 +126,7 @@ public class RobotAutoDriveToAprilTagOmni extends LinearOpMode
 
         // Initialize the hardware variables. Note that the strings used here as parameters
         // to 'get' must match the names assigned during the robot configuration.
-        // step (using the FTC Robot Controller app on the phone).
+        // step (using the FTC Robot.java Controller app on the phone).
         frontLeftDrive = hardwareMap.get(DcMotor.class, "front_left_drive");
         frontRightDrive = hardwareMap.get(DcMotor.class, "front_right_drive");
         backLeftDrive = hardwareMap.get(DcMotor.class, "back_left_drive");

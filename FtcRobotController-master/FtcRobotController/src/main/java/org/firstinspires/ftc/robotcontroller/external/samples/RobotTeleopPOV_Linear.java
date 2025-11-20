@@ -48,7 +48,7 @@ import com.qualcomm.robotcore.util.Range;
  * Remove or comment out the @Disabled line to add this OpMode to the Driver Station OpMode list
  */
 
-@TeleOp(name="Robot: Teleop POV", group="Robot")
+@TeleOp(name="Robot.java: Teleop POV", group="Robot.java")
 @Disabled
 public class RobotTeleopPOV_Linear extends LinearOpMode {
 
@@ -96,7 +96,7 @@ public class RobotTeleopPOV_Linear extends LinearOpMode {
         rightClaw.setPosition(MID_SERVO);
 
         // Send telemetry message to signify robot waiting;
-        telemetry.addData(">", "Robot Ready.  Press START.");    //
+        telemetry.addData(">", "Robot.java Ready.  Press START.");    //
         telemetry.update();
 
         // Wait for the game to start (driver presses START)

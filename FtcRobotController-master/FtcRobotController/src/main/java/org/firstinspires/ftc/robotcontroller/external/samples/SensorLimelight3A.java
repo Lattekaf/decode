@@ -86,7 +86,7 @@ public class SensorLimelight3A extends LinearOpMode {
          */
         limelight.start();
 
-        telemetry.addData(">", "Robot Ready.  Press Play.");
+        telemetry.addData(">", "Robot.java Ready.  Press Play.");
         telemetry.update();
         waitForStart();
 

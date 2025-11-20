@@ -88,7 +88,7 @@ import org.firstinspires.ftc.robotcore.external.navigation.YawPitchRollAngles;
  *  Remove or comment out the @Disabled line to add this OpMode to the Driver Station OpMode list
  */
 
-@Autonomous(name="Robot: Auto Drive By Gyro", group="Robot")
+@Autonomous(name="Robot.java: Auto Drive By Gyro", group="Robot.java")
 @Disabled
 public class RobotAutoDriveByGyro_Linear extends LinearOpMode {
 
@@ -170,7 +170,7 @@ public class RobotAutoDriveByGyro_Linear extends LinearOpMode {
 
         // Wait for the game to start (Display Gyro value while waiting)
         while (opModeInInit()) {
-            telemetry.addData(">", "Robot Heading = %4.0f", getHeading());
+            telemetry.addData(">", "Robot.java Heading = %4.0f", getHeading());
             telemetry.update();
         }
 
@@ -420,7 +420,7 @@ public class RobotAutoDriveByGyro_Linear extends LinearOpMode {
     }
 
     /**
-     * read the Robot heading directly from the IMU (in degrees)
+     * read the Robot.java heading directly from the IMU (in degrees)
      */
     public double getHeading() {
         YawPitchRollAngles orientation = imu.getRobotYawPitchRollAngles();

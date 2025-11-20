@@ -99,9 +99,9 @@ public class SensorIMUNonOrthogonal extends LinearOpMode
          *
          * The order that the rotations are performed matters, so this sample shows doing them in the order X, Y, then Z.
          * For specifying non-orthogonal hub mounting orientations, we must temporarily use axes
-         * defined relative to the Hub itself, instead of the usual Robot Coordinate System axes
+         * defined relative to the Hub itself, instead of the usual Robot.java Coordinate System axes
          * used for the results the IMU gives us. In the starting orientation, the Hub axes are
-         * aligned with the Robot Coordinate System:
+         * aligned with the Robot.java Coordinate System:
          *
          * X Axis:  Starting at Center of Hub, pointing out towards I2C connectors
          * Y Axis:  Starting at Center of Hub, pointing out towards USB connectors

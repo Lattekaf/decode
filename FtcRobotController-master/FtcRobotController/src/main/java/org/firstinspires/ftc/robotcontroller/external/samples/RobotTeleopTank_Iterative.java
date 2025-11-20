@@ -49,7 +49,7 @@ import com.qualcomm.robotcore.util.Range;
  * Remove or comment out the @Disabled line to add this OpMode to the Driver Station OpMode list
  */
 
-@TeleOp(name="Robot: Teleop Tank", group="Robot")
+@TeleOp(name="Robot.java: Teleop Tank", group="Robot.java")
 @Disabled
 public class RobotTeleopTank_Iterative extends OpMode{
 
@@ -94,7 +94,7 @@ public class RobotTeleopTank_Iterative extends OpMode{
         rightClaw.setPosition(MID_SERVO);
 
         // Send telemetry message to signify robot waiting;
-        telemetry.addData(">", "Robot Ready.  Press START.");    //
+        telemetry.addData(">", "Robot.java Ready.  Press START.");    //
     }
 
     /*

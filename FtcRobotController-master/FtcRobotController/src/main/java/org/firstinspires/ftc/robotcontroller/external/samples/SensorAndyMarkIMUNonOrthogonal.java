@@ -101,9 +101,9 @@ public class SensorAndyMarkIMUNonOrthogonal extends LinearOpMode
          * The order that the rotations are performed matters, so this sample shows doing them in
          * the order X, Y, then Z.
          * For specifying non-orthogonal IMU mounting orientations, we must temporarily use axes
-         * defined relative to the AndyMark IMU itself, instead of the usual Robot Coordinate System
+         * defined relative to the AndyMark IMU itself, instead of the usual Robot.java Coordinate System
          * axes used for the results the AndyMark IMU gives us. In the starting orientation, the
-         * AndyMark IMU axes are aligned with the Robot Coordinate System:
+         * AndyMark IMU axes are aligned with the Robot.java Coordinate System:
          *
          * X Axis:  Starting at center of IMU, pointing out towards the side.
          * Y Axis:  Starting at center of IMU, pointing out towards I2C port.
